@@ -1,0 +1,674 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+
+}
+
+nav {
+  background-color: black;
+  height: 40px;
+
+}
+
+nav a i {
+  padding: 12px 15px;
+  color: white;
+}
+
+.fa-magnifying-glass {
+  color: white;
+  float: right;
+  padding-right: 15px;
+}
+nav i:hover{
+  background-color: #616161;
+}
+
+.p1 {
+  background: white;
+  height: 230px;
+  text-align: center;
+
+}
+
+.p1 h1 {
+
+  padding-top: 70px;
+  font-family: "Oswald";
+  color: black;
+  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+}
+
+.p1 h6 {
+  font-family: "Oswald";
+  color: black;
+  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  word-spacing: 4px;
+}
+
+.p1 h6 span {
+  background-color: black;
+  padding: 2px 7px;
+  color: white;
+}
+
+
+ header.img1 img {
+  
+  width: 100%;
+  position: relative;
+}
+
+.img1 .content1 {
+  position: absolute;
+  top: 90%;
+  color: aliceblue;
+  padding-left: 20px;
+  
+
+}
+
+.img1 .content1 h2 {
+
+  padding: 10px;
+  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 4px;
+  font-size: 36px;
+}
+
+.img1 .content1 h1 {
+  padding: 10px;
+  font-size: 67px;
+  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 4px;
+}
+.img1 .content1 button {
+  color: #000!important;
+  padding: 10px 30px;
+  opacity: 0.60;
+
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 18px;
+  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  
+}
+main{
+  padding: 10px 0;
+  
+  
+
+}
+main .leftaside{
+background-color: #ffffff;
+padding-top: 20px;
+position: relative;
+
+}
+ .leftaside{
+  float: left;
+  width: 70%;
+  background-color: #ffffff;
+  padding-left: 20px;
+  
+}
+main .leftaside article .p4{
+  text-align: center;
+  font-size: 24px;
+  font-family: "Oswald";
+
+font-size:24px;
+padding: 10px 0;
+}
+main .leftaside article .p3{
+  text-align: center;
+  font-size: 18px;
+  
+  font-family: "Oswald";
+
+}
+.leftaside img{
+  padding: 20px 50px;
+  width: 100%;
+  
+}
+
+.leftaside span{
+  color: #000!important;
+  opacity: 0.60;
+  font-family: "Oswald";
+
+}
+
+main .leftaside .paragraph{
+  text-align:  justify;
+  padding-left: 50px;
+  
+  font-size: 15px;
+  width: 95%;
+  word-spacing: 5px;
+  font-family: "Open Sans";
+  font-weight: lighter;
+}
+main .leftaside .paragraph2{
+  margin-top: 30px;
+}
+
+main .leftaside button {
+  position: absolute;
+  bottom: -80px;
+  padding: 8px 16px;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ccc!important;
+  cursor: pointer;
+
+}
+main .leftaside button:hover{
+  background-color: #ccc;
+}
+main .leftaside .bt2{
+  float: right;
+  position: absolute;
+  left: 850px;
+  bottom: -80px;
+  background-color: black;
+  padding: 8px 22px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+main .leftaside .bt2 span{
+  background-color: white;
+  color: white;
+  
+  padding:  1px 9px;
+}
+main .leftaside .bt2:hover{
+  background-color: #ccc;
+  
+}
+main .leftaside .gorg{
+  position: absolute;
+  bottom:-300px;
+}
+main .leftaside .gorg img{
+  height: 100px;
+  width: 50px;
+  background-image: url(./Photos/avatar_smoke.jpg);
+  background-size: contain;
+}
+main .leftaside .gorg .gorge{
+  position: absolute;
+  left: 150px;
+  width: 500px;
+  top: 20px;
+  font-family: "Oswald";
+  font-size: 18px;
+}
+main .leftaside .gorg .great{
+  position: absolute;
+  left: 150px;
+  width: 500px;
+  bottom: 20px;
+  font-family: "Oswald";
+  font-size: 18px;
+}
+
+
+main .rightside{
+  float: right;
+  width: 30%;
+  overflow: hidden;
+  
+  
+}
+main .rightside div{
+  background-color: black;
+  height: 190px;
+  width: 95%;
+  margin-top: -40px;
+}
+main .rightside div{
+  color: #ffffff;
+  padding-top:  80px;
+  padding-left: 12px;
+
+}
+main .rightside article div h1{
+  color: white;
+  font-family: "Open Sans";
+font-size: 15px;
+  padding-bottom: 20px ;
+}
+main .rightside article p{
+text-align: justify;
+font-family: "Open Sans";
+font-size: 14px;
+width: 400px;
+
+}
+main .rightside article .div2{
+  background-color: black;
+  height: 30px;
+  width: 95%;
+  margin-top: 40px;
+  position: relative;
+}
+main .rightside article .div2 p{
+  color: white;
+  position: absolute;
+  top: 30%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  padding-left: 10px;
+
+}
+main .rightside article .div3{
+  background-color: white;
+  height: 570px;
+  width: 95%;
+  margin-top: 0px;
+  position: relative;
+  
+}
+main .rightside article .div3 div{
+  background-color: white;
+  position: absolute;
+  height: 120px;
+}
+main .rightside article .div3 img{
+  position: absolute;
+  top: 10px;
+}
+main .rightside article .div3 div p{
+  position: absolute;
+  left: 121px;
+  top: 30px;
+  font-size: 22px;
+  color: black;
+}
+main .rightside article .div3 div  .sed{
+  position: absolute;
+  left: 121px;
+  color: #000;
+  padding: 30px 0;
+  font-size: 15px;
+}
+main .rightside article .div3 .denim:hover{
+  background-color: beige;
+}
+
+main .rightside article .div3 .sweater{
+  background-color: white;
+  position: absolute;
+  height: 120px;
+  margin-top: 90px;
+}
+main .rightside article .div3 .sweater  .praces{
+  position: absolute;
+  left: 121px;
+  color: #000;
+  padding:30px 0;
+  font-size: 15px;
+}
+main .rightside article .div3 .sweater:hover{
+  background-color: beige;
+}
+main .rightside article .div3 .workshop{
+  background-color: white;
+  position: absolute;
+  height: 120px;
+  margin-top: 220px;
+}
+main .rightside article .div3 .workshop .congue{
+
+  position: absolute;
+  left: 121px;
+  color: #000;
+  padding:30px 0;
+  font-size: 15px;
+}
+main .rightside article .div3 .workshop:hover{
+  background-color: beige;
+}
+
+main .rightside article .div3 .trend{
+  background-color: white;
+  position: absolute;
+  height: 120px;
+  margin-top: 355px;
+}
+main .rightside article .div3 .trend .trendd{
+  position: absolute;
+  left: 121px;
+  color: #000;
+  padding:30px 0;
+  font-size: 15px;
+
+}
+main .rightside article .div3 .trend:hover{
+  background-color: beige;
+}
+footer{
+  background-color:#616161;
+  height: 180px;
+position:relative;
+top: 3150px;
+
+
+
+}
+
+footer button{
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  padding: 12px 24px;
+  font-size: 17px;
+  background-color: #000;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+footer button:hover{
+  background-color: #ccc;
+  color: #000;
+}
+footer button i{
+  padding-right: 15px;
+}
+footer p{
+
+color: #000;
+position: absolute;
+top: 115px;
+left: 70px;
+font-family: "Open Sans";
+font-size: 19px;
+
+}
+footer p span{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.art2{
+  padding:30px 0px
+}
+main .rightside  article .me{
+  background-color: black;
+  height: 60px;
+  position: relative;
+  padding: 20px 0px;
+  margin-top: 25px;
+  
+  
+
+}
+main .rightside  article .me p{
+
+
+  position: absolute;
+  top: 30%;
+  font-family: 'ABeeZee', sans-serif;
+  left: 15px;
+  font-size: 17px;
+  
+
+}
+main .rightside article .icon{
+
+  background-color: white;
+  height: 80px;
+  padding: 60px 0;
+  
+
+
+  
+
+}
+main .rightside article .icon a i{
+color: black;
+padding: 0px 10px;
+font-size: 22px;
+}
+
+main .rightside .email{
+  margin-top: 30px;
+  background-color: white;
+  position: relative;
+  height: 350px;
+  
+}
+main .rightside .email p{
+  position: absolute;
+  top: 0%;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  padding: 30px 20px;
+  
+}
+main .rightside .email .em{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  font-weight: lighter;
+}
+main .rightside .email input{
+  background-color:white ;
+  position: absolute;
+  top: 51%;
+  height: 40px;
+  width: 90%;
+  border: 1px solid #ccc;
+
+}
+main .rightside .email input::placeholder{
+padding-left: 20px;
+}
+main .rightside .email button{
+  position: absolute;
+  top: 70%;
+  text-align: center;
+  width: 90%;
+  height: 40px;
+  background-color: #f44336!important;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+main .rightside .email button:hover{
+  background-color: cadetblue;
+}
+
+@media screen and (max-width:950px){
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+main{
+  overflow: hidden;
+}
+main .rightside{
+  padding: 10px;
+  font-size: 10px;
+}
+footer{
+  position: relative;
+  top: 100px;
+}
+main .rightside article div h1 {
+  
+  box-sizing: border-box;
+  
+}
+main .rightside article div p {
+  width: 90%;
+  box-sizing: border-box;
+}
+
+main .rightside article .div2 .div3 .denim {
+  width: 100px;
+  position: relative;
+}
+
+main .rightside article .div3 div {
+  width: 20px;
+  font-size: 10px;
+  padding: 10px;
+}
+main .rightside article .div3 div p{
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 150px;
+  top: 10px;
+}
+main .rightside article .div3 div .sed{
+  font-size: 15px;
+  position: absolute;
+  bottom: 10px;
+  left: 150px;
+  width: 100%;
+  top: 10px;
+}
+main .rightside article .div3 p{
+  width: 80%;
+  font-size: 8px;
+  
+}
+main .rightside article .div3 .sweater p{
+
+  font-size: 18px;
+  position: absolute;
+  top: 15px;
+  
+}
+main .rightside article .div3 .sweater .praces{
+
+font-size: 15px;
+position: absolute;
+top: 15px;
+left: 150px;
+
+}
+main .rightside article .div3 .workshop p{
+
+font-size: 18px;
+}
+main .rightside article .div3 .workshop .congue{
+
+font-size: 15px;
+left: 150px;
+}
+main .rightside article .div3 .trend p{
+
+font-size: 18px;
+}
+main .rightside article .div3 .trend .trendd{
+
+font-size: 15px;
+position: absolute;
+top: 15px;
+left: 150px;
+}
+.img1 .content1{
+  position:absolute
+}
+.img1 .content1 h2{
+  position: relative;
+  top:-150px;
+}
+.img1 .content1 h1{
+  position: relative;
+  top: -140px;
+  font-size: 23px;
+}
+.img1 .content1 button{
+  position: relative;
+  top: -120px;
+  font-size: 15px;
+
+}
+.email p{
+  font-size: 18px;
+
+}
+.email .em{
+  word-spacing: 2px;
+  padding: 10ox;
+}
+main  .leftaside{
+  width: 100%;
+  float: none;
+}
+main .rightside{
+  width: 100%;
+  float: none;
+}
+.gorg {
+  display: none;
+}
+
+
+}
+#zz{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+background-color: rgba(0, 0, 0, 0.2);  
+top: 0px;
+
+}
+#zz div{
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: white;
+}
+#zz div #close{
+  float: right;
+  background-color: transparent;
+  font-weight: bold;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+#zz div h1{
+  font-size: 45px;
+}
+#zz div input{
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#zz div #subscibeb{
+  background-color: #f44336;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
